@@ -1,0 +1,28 @@
+{
+  "name": "profilegenerator",
+  "version": "1.0.0",
+  "description": "This repository contains a node.js application that allows a user to generate a team project set up for group projects",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeadbandDandy/ProfileGenerator.git"
+  },
+  "author": "DJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeadbandDandy/ProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/HeadbandDandy/ProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
