@@ -4,7 +4,8 @@
   "description": "This repository contains a node.js application that allows a user to generate a team project set up for group projects",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "type": "module"
   },
   "scripts": {
     "test": "jest"
@@ -20,9 +21,11 @@
   },
   "homepage": "https://github.com/HeadbandDandy/ProfileGenerator#readme",
   "dependencies": {
-    "inquirer": "^9.1.0"
+    "inquirer": "^8.2.4",
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
+    "@types/node-fetch": "^2.6.2",
     "jest": "^28.1.3"
   }
 }
