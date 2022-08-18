@@ -1,4 +1,5 @@
 //Write Employee Test First
+// All test have failed successfully 8/18
 
 //below is the employee constructor
 const Employee = require('../lib/Employee')
