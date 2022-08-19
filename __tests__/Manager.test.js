@@ -8,7 +8,7 @@ const Manager = require('../lib/Manager')
 test('manager object', () => {
     const Manager = new Manager('John', 91, 'johndoe@gmail.com', 1234)
 
-    expect(manager.officeNumber).toEqual(expect.any(Number)
+    expect(manager.officeNumber).toEqual(expect.any(Number))
 })
 
 
