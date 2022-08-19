@@ -170,7 +170,7 @@ const newTeammate = () => {
 
         teamBuilder.push(employee); 
 
-        if (confirmAddEmployee) {
+        if (confirmAdditional) {
             return addEmployee(teamBuilder); 
         } else {
             return teamBuilder;
