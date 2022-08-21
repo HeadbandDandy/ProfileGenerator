@@ -2,7 +2,7 @@
 //Constants linked to modules and team profiles
 //As well as information about the team and the prompt section
 
-const generateHTML = require('./src/index.html')
+const generateHTML = require('./src/markup.js')
 
 const Manager = require('./lib/Manager')
 const Engineer = require('./lib/Engineer')
@@ -171,7 +171,7 @@ const newTeammate = () => {
         teamBuilder.push(employee); 
 
         if (confirmAdditional) {
-            return addEmployee(teamBuilder); 
+            return newTeammate(teamBuilder); 
         } else {
             return teamBuilder;
         }
