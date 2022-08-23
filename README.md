@@ -1,3 +1,28 @@
+# Video-WalkThrough
+
+
+
+https://user-images.githubusercontent.com/106439402/186211710-f8331aa1-c54b-487c-ad86-7dab4014f7dc.mov
+
+
+
+
+https://user-images.githubusercontent.com/106439402/186211746-9b452bc4-5d95-4b1f-a249-ea8191bb21df.mov
+
+
+
+
+
+https://user-images.githubusercontent.com/106439402/186211793-72bd9039-c922-4a8f-af39-dd6f1e902ebf.mov
+
+
+# Index Markup Page
+
+![Screen Shot 2022-08-23 at 12 29 47 PM](https://user-images.githubusercontent.com/106439402/186212195-ff192d63-8a81-4e9e-91e2-5aa7916177af.png)
+
+
+
+
 # ProfileGenerator
 This repository contains a node.js application that allows a user to generate a team project set up for group projects
 
@@ -86,4 +111,6 @@ school
 getSchool()
 
 getRole() // Overridden to return 'Intern'
+
+
 
